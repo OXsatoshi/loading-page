@@ -1,5 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Roboto;
+}
+header {
+  font-family: "Roboto";
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+header > .hero-section {
+  display: flex;
+}
+header > .hero-section .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+header nav.navbar-navigation ul {
+  display: flex;
+  outline: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+header nav.navbar-navigation {
+  margin-left: auto;
+}
+
+.site-intro {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+.site-intro h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: f9faf8;
+}
+.site-intro .right {
+  width: 400px;
+  height: 160px;
+  background-color: #6d747d;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site-intro .left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+  border: none;
+  border-radius: 5%;
+}
+.site-intro .left button {
+  max-width: 90px;
+  height: 25px;
 }
