@@ -75,6 +75,7 @@ button {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 main > div.random-info {
   display: flex;
@@ -100,4 +101,25 @@ main .random-info > div > div > div {
 }
 main .random-info > div > div > p {
   max-width: 150px;
+}
+main > div.quote {
+  background-color: #e5e7eb;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+main > div.quote > p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+main > div.quote > span {
+  font-weight: bolder;
+  align-self: flex-end;
+  margin-right: 200px;
 }
