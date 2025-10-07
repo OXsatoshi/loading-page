@@ -131,6 +131,7 @@ main > div.quote > span {
   justify-content: space-evenly;
   align-items: center;
   border-radius: 10px;
+  margin-bottom: 100px;
 }
 div.subscribtion button {
   border: white solid 2px;
@@ -142,4 +143,12 @@ div.subscribtion h3 {
 }
 div.subscribtion p {
   color: beige;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 80px;
 }
